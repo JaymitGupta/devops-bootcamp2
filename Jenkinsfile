@@ -18,7 +18,7 @@ node{
     stage('docker push'){
      //  withCredentials([string(credentialsId: 'dockerPwd', variable: 'dockerHubPwd')]) {
      //   sh "docker login -u shubhamkushwah123 -p ${dockerHubPwd}"
-     //   } jjjj
+     //   } 
      //   sh 'docker push shubhamkushwah123/cicd-demo:3.0'
     }
     
